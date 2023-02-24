@@ -9,7 +9,7 @@ dnf --setopt=install_weak_deps=False --best install -y @base-x \
 						       @fonts \
 						       iwl7260-firmware \
 						       gnome-shell \
-						       gnome-session-xsession \
+						       # gnome-session-xsession \
 						       gdm \
 						       f36-backgrounds-gnome \
                                                        NetworkManager \
