@@ -92,8 +92,3 @@ curl -sS https://starship.rs/install.sh | sh
 
 # DONE
 reboot
-
-# EXTRAS
-# dnf --setopt=install_weak_deps=False --best install -y python3-autopep8 java-17-openjdk-devel maven gcc gdb valgrind nodejs npm
-# dnf --setopt=install_weak_deps=False --best install -y opam stack rust cargo
-# dnf --setopt=install_weak_deps=False --best install -y openssl-devel libcurl-devel R-devel rstudio-desktop
