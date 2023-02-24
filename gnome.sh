@@ -21,7 +21,9 @@ dnf --setopt=install_weak_deps=False --best install -y gnome-terminal \
                                                        nautilus \
                                                        mpv \
                                                        ffmpeg \
-						       mupdf \
+						       evince \
+						       evince-djvu \
+						       evince-thumbnailer \
                                                        eog \
                                                        neovim \
                                                        fish \
