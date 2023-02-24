@@ -49,6 +49,9 @@ wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.3/adw-gtk3v4-
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 dnf install -y google-chrome-stable_current_x86_64.rpm
 
+# STARSHIP
+curl -sS https://starship.rs/install.sh | sh
+
 # Removing some packages
 dnf remove -y nano vim-minimal
 
