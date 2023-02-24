@@ -6,12 +6,12 @@ dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-
 
 # Base
 dnf --setopt=install_weak_deps=False --best install -y @base-x \
-													   @fonts \
-													   iwl7260-firmware \
-													   gnome-shell \
-													   gnome-session-xsession \
-													   gdm \
-													   f36-backgrounds-gnome \
+						       @fonts \
+						       iwl7260-firmware \
+						       gnome-shell \
+						       gnome-session-xsession \
+						       gdm \
+						       f36-backgrounds-gnome \
                                                        NetworkManager \
                                                        NetworkManager-wifi \
                                                        NetworkManager-bluetooth \
@@ -21,7 +21,7 @@ dnf --setopt=install_weak_deps=False --best install -y gnome-terminal \
                                                        nautilus \
                                                        mpv \
                                                        ffmpeg \
-													   mupdf \
+						       mupdf \
                                                        eog \
                                                        neovim \
                                                        fish \
@@ -31,14 +31,14 @@ dnf --setopt=install_weak_deps=False --best install -y gnome-terminal \
                                                        curl \
                                                        aria2 \
                                                        yt-dlp \
-													   yt-dlp-fish-completion \
-													   fzf \
-													   openssl \
-													   gnome-tweaks \
-													   gnome-extensions-app \
-													   gnome-browser-connector \
-													   papirus-icon-theme \
-													   breeze-cursor-theme
+						       yt-dlp-fish-completion \
+						       fzf \
+						       openssl \
+						       gnome-tweaks \
+						       gnome-extensions-app \
+						       gnome-browser-connector \
+						       papirus-icon-theme \
+						       breeze-cursor-theme
 
 # adw-gtk3
 wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.3/adw-gtk3v4-3.tar.xz
