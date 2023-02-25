@@ -16,7 +16,7 @@ dnf --setopt=install_weak_deps=False --best install -y @base-x \
                                                        NetworkManager-bluetooth \
                                                        power-profiles-daemon
 # Apps
-dnf --setopt=install_weak_deps=False --best install -y gnome-terminal \
+dnf --setopt=install_weak_deps=False --best install -y kitty \
                                                        nautilus \
                                                        mpv \
                                                        ffmpeg \
