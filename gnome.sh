@@ -55,11 +55,6 @@ wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.3/adw-gtk3v4-
 # STARSHIP
 curl -sS https://starship.rs/install.sh | sh
 
-# Swap Bash for Fish
-dnf check-update
-dnf upgrade
-chsh -s $(which fish)
-
 # Removing some packages
 dnf remove -y nano vim-minimal
 
