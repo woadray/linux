@@ -41,15 +41,18 @@ dnf --setopt=install_weak_deps=False --best install -y kitty \
 						       papirus-icon-theme \
 						       breeze-cursor-theme
 
-# adw-gtk3
-wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.3/adw-gtk3v4-3.tar.xz
-
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 dnf install -y google-chrome-stable_current_x86_64.rpm
 
+# adw-gtk3
+wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.3/adw-gtk3v4-3.tar.xz
+
 # STARSHIP
 curl -sS https://starship.rs/install.sh | sh
+
+# Swap Bash for Fish
+chsh -s $(which fish)
 
 # Removing some packages
 dnf remove -y nano vim-minimal
