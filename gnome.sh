@@ -61,6 +61,3 @@ dnf remove -y nano vim-minimal
 # Reboot
 systemctl set-default graphical.target
 reboot
-
-# ?
-# dnf --setopt=install_weak_deps=False --best install -y evince evince-djvu evince-thumbnailer
