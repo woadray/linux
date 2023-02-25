@@ -38,6 +38,18 @@ dnf --setopt=install_weak_deps=False --best install -y kitty \
 						       papirus-icon-theme \
 						       breeze-cursor-theme
 
+# Tools
+dnf --setopt=install_weak_deps=False --best install -y gcc \
+						       gdb \
+						       valgrind \
+						       nodejs \
+						       npm
+
+dnf --setopt=install_weak_deps=False --best install -y fd-find \
+						       bat \
+						       ripgrep \
+						       tree-sitter-cli
+						       
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 dnf install -y google-chrome-stable_current_x86_64.rpm
