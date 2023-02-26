@@ -44,11 +44,6 @@ dnf --setopt=install_weak_deps=False --best install -y kitty \
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 dnf install -y google-chrome-stable_current_x86_64.rpm
 
-# VS Code
-# rpm --import https://packages.microsoft.com/keys/microsoft.asc
-# sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-# dnf install -y code
-
 # adw-gtk3
 wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.3/adw-gtk3v4-3.tar.xz
 
