@@ -52,6 +52,10 @@ dnf --setopt=install_weak_deps=False --best install -y kitty \
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 dnf install -y google-chrome-stable_current_x86_64.rpm
 
+# VSCodium
+wget https://github.com/VSCodium/vscodium/releases/download/1.75.1.23040/codium-1.75.1.23040-el7.x86_64.rpm
+dnf install -y codium-1.75.1.23040-el7.x86_64.rpm
+
 # RICE
 dnf --setopt=install_weak_deps=False --best install -y lxappearance \
                                                        arc-theme \
