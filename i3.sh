@@ -68,7 +68,8 @@ dnf --setopt=install_weak_deps=False --best install -y python3-pip \
                                                        valgrind \
                                                        java-11-openjdk-devel \
                                                        nodejs \
-                                                       npm
+                                                       npm \
+                                                       nodejs-typescript
 
 # MISC
 # xorg.conf
