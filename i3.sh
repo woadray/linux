@@ -58,6 +58,16 @@ dnf --setopt=install_weak_deps=False --best install -y lxappearance \
                                                        papirus-icon-theme \
                                                        breeze-cursor-theme
 
+# SETUP
+dnf --setopt=install_weak_deps=False --best install -y python3-pip \
+                                                       gcc \
+                                                       gcc-c++ \
+                                                       gdb \
+                                                       valgrind \
+                                                       java-11-openjdk-devel \
+                                                       nodejs \
+                                                       npm
+
 # MISC
 # xorg.conf
 cd /etc/X11
