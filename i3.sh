@@ -69,7 +69,7 @@ dnf --setopt=install_weak_deps=False --best install -y python3-pip \
                                                        java-11-openjdk-devel \
                                                        nodejs \
                                                        npm \
-                                                       nodejs-typescript
+                                                       typescript
 
 # MISC
 # xorg.conf
