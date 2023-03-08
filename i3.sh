@@ -46,6 +46,7 @@ dnf --setopt=install_weak_deps=False --best install -y kitty \
                                                        fzf \
                                                        fd-find \
                                                        bat \
+                                                       ripgrep \
                                                        mupdf \
                                                        mpv \
                                                        transmission
@@ -66,7 +67,6 @@ dnf --setopt=install_weak_deps=False --best install -y python3-pip \
                                                        gcc-c++ \
                                                        gdb \
                                                        valgrind \
-                                                       java-11-openjdk-devel \
                                                        nodejs \
                                                        npm 
 
